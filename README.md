@@ -2,18 +2,18 @@
 
 
 # Setup and Configuration
-1. git --version: Check the installed Git version.
-2. git config --global user.name "Your Name": Set your name for all repositories.
-3. git config --global user.email "youremail@example.com": Set your email for all repositories.
+1. <b>git --version:</b> Check the installed Git version.
+2. <b>git config --global user.name "Your Name":</b> Set your name for all repositories.
+3. <b>git config --global user.email "youremail@example.com":</b> Set your email for all repositories.
 # Creating Repositories
-1. git init: Initialize a new local Git repository in the current directory.
-2. git clone [url]: Clone a repository into a new directory.
+1. <b>git init:</b> Initialize a new local Git repository in the current directory.
+2. <b>git clone [url]:</b> Clone a repository into a new directory.
 # Local Changes
-1. git status: Show the working tree status.
-2. git add [file]: Add a file to the staging area.
-3. git add .: Add all new and changed files to the staging area.
-4. git commit -m "Commit message": Commit changes with a message.
-5. git commit -a -m "Commit message": Add changes from all tracked files and commit.
+1. <b>git status:</b> Show the working tree status.
+2. <b>git add [file]:</b> Add a file to the staging area.
+3. <b>git add .:</b> Add all new and changed files to the staging area.
+4. <b>git commit -m "Commit message":</b> Commit changes with a message.
+5. <b>git commit -a -m "Commit message":</b> Add changes from all tracked files and commit.
 # Branching
 1. git branch: List all local branches.
 2. git branch [branch-name]: Create a new branch.
