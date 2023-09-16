@@ -15,32 +15,31 @@
 4. <b>git commit -m "Commit message":</b> Commit changes with a message.
 5. <b>git commit -a -m "Commit message":</b> Add changes from all tracked files and commit.
 # Branching
-1. git branch: List all local branches.
-2. git branch [branch-name]: Create a new branch.
-3. git checkout [branch-name]: Switch to the specified branch.
-4. git checkout -b [branch-name]: Create and switch to a new branch.
-5. git merge [branch-name]: Merge a branch into the active branch.
+1. <b>git branch:</b> List all local branches.
+2. <b>git branch [branch-name]:</b> Create a new branch.
+3. <b>git checkout [branch-name]:</b> Switch to the specified branch.
+4. <b>git checkout -b [branch-name]:</b> Create and switch to a new branch.
+5. <b>git merge [branch-name]:</b> Merge a branch into the active branch.
 # Remote Repositories
-1. git remote add [alias] [url]: Add a remote repository.
-2. git remote -v: List remote repositories.
-3. git push [alias] [branch]: Upload local repository content to a remote repository.
-4. git pull [alias] [branch]: Update local repository with remote changes.
-5 .git fetch [alias]: Fetch changes from remote repository without merging.
+1. <b>git remote add [alias] [url]:</b> Add a remote repository.
+2. <b>git remote -v:</b> List remote repositories.
+3. <b>git push [alias] [branch]:</b> Upload local repository content to a remote repository.
+4. <b>git pull [alias] [branch]:</b> Update local repository with remote changes.
+5  <b>git fetch [alias]:</b> Fetch changes from remote repository without merging.
 # History and Logs
-1. git log: Show the commit logs.
-2. git log --oneline: Show the commit logs in a short format.
-3. git blame [file]: Show who changed what and when in [file].
+1. <b>git log:</b> Show the commit logs.
+2. <b>git log --oneline:</b> Show the commit logs in a short format.
+3. <b>git blame [file]:</b> Show who changed what and when in [file].
 # Undo Changes
-1. git reset [commit]: Reset the HEAD to a specific commit.
-2. git revert [commit]: Create a new commit that undoes the changes made in a specific commit.
-3. git restore [file]: Restore a file to a previous version.
+1. <b>git reset [commit]:</b> Reset the HEAD to a specific commit.
+2. <b>git revert [commit]:</b> Create a new commit that undoes the changes made in a specific commit.
+3. <b>git restore [file]:</b> Restore a file to a previous version.
 # Advanced
-1. git stash: Stash changes in a dirty working directory.
-2. git stash apply: Apply changes from the stash.
-3. git rebase [branch]: Reapply changes on top of another branch.
-4. git cherry-pick [commit]: Apply changes from a specific commit to the current branch.
-5. 
-These are just the basics; Git offers many more functionalities. Each command usually has a range of options and flags that you can discover using <b>git help [command].</b>
+1. <b>git stash:</b> Stash changes in a dirty working directory.
+2. <b>git stash apply:</b> Apply changes from the stash.
+3. <b>git rebase [branch]:</b> Reapply changes on top of another branch.
+4. <b>git cherry-pick [commit]:</b> Apply changes from a specific commit to the current branch.
+5. These are just the basics; Git offers many more functionalities. Each command usually has a range of options and flags that you can discover using <b>git help [command].</b>
 
 
 
