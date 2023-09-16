@@ -5,6 +5,9 @@
 1. <b>git --version:</b> Check the installed Git version.
 2. <b>git config --global user.name "Your Name":</b> Set your name for all repositories.
 3. <b>git config --global user.email "youremail@example.com":</b> Set your email for all repositories.
+4. git config user.name
+5. git config --local user.name
+6. git config --global user.name
 # Creating Repositories
 1. <b>git init:</b> Initialize a new local Git repository in the current directory.
 2. <b>git clone [url]:</b> Clone a repository into a new directory.
