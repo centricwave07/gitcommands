@@ -40,7 +40,7 @@
 3. git rebase [branch]: Reapply changes on top of another branch.
 4. git cherry-pick [commit]: Apply changes from a specific commit to the current branch.
 5. 
-These are just the basics; Git offers many more functionalities. Each command usually has a range of options and flags that you can discover using git help [command].
+These are just the basics; Git offers many more functionalities. Each command usually has a range of options and flags that you can discover using ##git help [command].
 
 
 
