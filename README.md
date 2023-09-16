@@ -43,7 +43,8 @@
 3. <b>git rebase [branch]:</b> Reapply changes on top of another branch.
 4. <b>git cherry-pick [commit]:</b> Apply changes from a specific commit to the current branch.
 5. <b>git reset —hard HEAD:</b> For hard pull and ignore non committed file
-6. These are just the basics; Git offers many more functionalities. Each command usually has a range of options and flags that you can discover using <b>git help [command].</b>
+6. <b>git reset HEAD~1</b>: To reset last commit
+7. These are just the basics; Git offers many more functionalities. Each command usually has a range of options and flags that you can discover using <b>git help [command].</b>
 
 
 
