@@ -23,6 +23,8 @@
 3. <b>git checkout [branch-name]:</b> Switch to the specified branch.
 4. <b>git checkout -b [branch-name]:</b> Create and switch to a new branch.
 5. <b>git merge [branch-name]:</b> Merge a branch into the active branch.
+6. <b>git switch -c:</b> Create new branch from current branch using command.
+7. <b>git push -u origin [local-branch-name]:</b> Push your local created branch on remote git.
 # Remote Repositories
 1. <b>git remote add [alias] [url]:</b> Add a remote repository.
 2. <b>git remote -v:</b> List remote repositories.
