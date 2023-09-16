@@ -39,7 +39,8 @@
 2. <b>git stash apply:</b> Apply changes from the stash.
 3. <b>git rebase [branch]:</b> Reapply changes on top of another branch.
 4. <b>git cherry-pick [commit]:</b> Apply changes from a specific commit to the current branch.
-5. These are just the basics; Git offers many more functionalities. Each command usually has a range of options and flags that you can discover using <b>git help [command].</b>
+5. <b>git reset —hard HEAD:</b> For hard pull and ignore non committed file
+6. These are just the basics; Git offers many more functionalities. Each command usually has a range of options and flags that you can discover using <b>git help [command].</b>
 
 
 
